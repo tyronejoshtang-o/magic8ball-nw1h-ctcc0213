@@ -7,7 +7,7 @@ package magic8ball;
     import java.util.Random;
 
     // The main class is called Magic8ball. 
-public class Magic8ball {
+public class Magic8ball-final {
     public static void main(String[] args) {
         
             // For reading user input.
