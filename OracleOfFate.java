@@ -17,10 +17,10 @@ public class OracleOfFate {
         Random randomInt = new Random();
         
         // Welcomes the user.
-        System.out.println("Welcome to Oracle of Fate. Believe or not, this magic ball knows all the answers.");
+        System.out.println("Welcome to Oracle of Fate. Embrace the unknown, for you have entered the sanctum of fate");
 
         // Ask user's name.
-        System.out.print("Input your name: ");
+        System.out.print("What do they call you? ");
         String name = scan.nextLine();
         
         //Infinite loop to keep the program running until user decides to exit
@@ -30,12 +30,12 @@ public class OracleOfFate {
             String answer;
 
             // Prompt User for Question
-            System.out.println("Ask your question: ");
+            System.out.println("Ask: ");
             question = scan.nextLine();
 
             // Check if the user wants to exit
             if (question.equalsIgnoreCase("exit")) {
-                System.out.println("Goodbye!");
+                System.out.println("May the threads of destiny weave in your favor. Goodbye!");
                 break; // exit the loop
             }
  
