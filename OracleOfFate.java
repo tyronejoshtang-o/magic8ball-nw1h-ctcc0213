@@ -17,7 +17,7 @@ public class OracleOfFate {
         Random randomInt = new Random();
         
         // Welcomes the user.
-        System.out.println("Welcome to Oracle of Fate. Embrace the unknown, for you have entered the sanctum of fate");
+        System.out.println("Welcome to Oracle of Fate. Embrace the unknown, for you have entered the sanctum of fate. Type \"exit\" to exit. ");
 
         // Ask user's name.
         System.out.print("What do they call you? ");
